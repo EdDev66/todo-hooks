@@ -1,0 +1,31 @@
+.hidden {
+    display: none;
+}
+
+.modal {
+    color: #000;
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+    width: 50%;
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px black;
+    padding: 16px;
+    left: 25%;
+    top: 30%;
+}
+
+.modalButton {
+    width: 100px;
+    margin-left: 10px;
+    height: 25px;
+    background-color: #5cb850;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modalButton:hover {
+    background-color: #236b19;
+}

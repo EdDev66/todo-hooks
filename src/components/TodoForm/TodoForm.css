@@ -1,0 +1,29 @@
+.mainWidget  {
+    background-color: blue;
+    height: 80;
+    width: 300px;
+}
+
+.todo-input {
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.todo-button {
+    width: 100px;
+    height: 30px;
+    background-color: #0275d8;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.todo-button:focus {
+    border: 3px solid #555;
+}
+
+.todo-button:hover {
+    background-color: #022ED8;
+}

@@ -1,0 +1,35 @@
+.todo-row {
+    width: 50%;
+    padding: 5px;
+    margin-left: 25%;
+    margin-top: 10px;
+    background-color: #318CE7;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.todo-text {
+    user-select: none;
+    display: inline-block;
+    font-size: 22px;
+}
+
+.complete {
+    text-decoration: line-through;
+    background-color: #2065aa;
+}
+
+.icons {
+    align-items: center;
+    cursor: pointer;
+}
+
+svg {
+    font-size: 18px;
+    padding-left: 8px;
+}
+
+svg:hover {
+    color: #000;
+    transition: 0.3s;
+}
